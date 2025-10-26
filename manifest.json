@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "e-Diary Bulk AutoFiller",
+  "version": "6.5",
+  "description": "Mengisi e-Diary secara automatik untuk tempoh satu bulan penuh.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://ediary.sprm.gov.my/aktiviti/tambah*",
+    "https://ediary.sprm.gov.my/aktiviti/papar/*"
+  ],
+  "icons": {
+    "16": "icon16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ediary.sprm.gov.my/aktiviti/tambah*",
+        "https://ediary.sprm.gov.my/aktiviti/papar/*"
+      ],
+      "js": ["jquery.min.js", "content.js"],  
+      "run_at": "document_start" 
+    }
+  ],
+  "action": {
+    "default_title": "e-Diary AutoFiller"
+  }
+}
