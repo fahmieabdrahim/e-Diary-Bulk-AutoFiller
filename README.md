@@ -1,39 +1,39 @@
-# ⚡ E D I A R Y - A U T O F I L L ⚡
-#
-# >> Scripted Automation for Monthly e-Diary Submission <<
-# -----------------------------------------------------------------
+# E-DIARY AUTOFILL EXTENSION
 
-## [ SYSTEM INITIATED ] :: AUTOMATION CORE
+Sambungan Google Chrome ini direka untuk mengautomasikan pengisian borang e-Diary anda untuk tempoh sebulan penuh. Matlamat utama projek ini adalah untuk menjimatkan masa anda daripada melaksanakan tugas pengisian data yang berulang.
 
-> Sambungan Google Chrome yang direka khas untuk **mengautomasikan pengisian borang e-Diary**
-> untuk tempoh sebulan penuh. Matlamat adalah untuk **menjimatkan masa** dengan menghapuskan
-> tugas pengisian data yang berulang.
+### Status Projek
 
-### 💾 STATUS PROJEK
-* **TYPE:** Open Source
-* **RISK_LEVEL:** Low (Local Script)
-* **DISCLAIMER:** Tidak berafiliasi dengan entiti e-Diary.
+* Tipe: Sumber Terbuka (Open Source)
+* Penafian: Projek ini tidak berafiliasi atau disokong oleh mana-mana entiti rasmi yang menguruskan e-Diary.
 
 ---
 
-## [ DEPLOYMENT ] :: MANUAL INSTALL REQUIRED
+## ⚙️ CARA PEMASANGAN (MANUAL DIPERLUKAN)
 
-> ⚠️ **PERHATIAN:** Oleh sebab projek ini tidak dihoskan di Chrome Web Store (CWS),
-> pemasangan **WAJIB** dilakukan secara manual melalui Mod Pembangun.
+Oleh sebab sambungan ini adalah projek sumber terbuka dan tidak dihoskan di Chrome Web Store (CWS), pemasangan **mesti** dilakukan secara manual melalui Mod Pembangun (*Developer Mode*) di Chrome.
 
-### PROSEDUR PEMASANGAN (SEQUENCE)
+**PENTING:** Ini adalah langkah keselamatan wajib bagi semua sambungan luar CWS.
 
-#### 1. ⬇️ MUAT TURUN KOD SUMBER
-1.  **ACCESS:** GitHub Repo > Butang `< > Code` > "Download ZIP".
-2.  **UNPACK:** Nyahzip fail yang dimuat turun ke direktori kerja anda.
+### PROSEDUR PEMASANGAN:
 
-#### 2. ⚙️ AKTIVASI MOD PEMBANGUN
-1.  **CHROME:** Buka pelayar.
-2.  **NAVIGATE:** Pergi ke `chrome://extensions`.
-3.  **TOGGLE:** Aktifkan **"Developer mode"** di penjuru kanan atas.
+#### LANGKAH 1: MUAT TURUN KOD SUMBER
 
-#### 3. ✅ LOAD & EXECUTE
-1.  **COMMAND:** Klik **"Load unpacked"**.
-2.  **SELECT:** Pilih folder kod sumber yang diekstrak (yang mengandungi `manifest.json`).
+1.  Pergi ke repositori GitHub ini.
+2.  Klik butang **`< > Code`** dan pilih **"Download ZIP"**.
+3.  Nyahzip (extract) fail yang dimuat turun. Folder yang diekstrak adalah direktori sambungan anda.
 
-> > **[ STATUS: OPERATIONAL ]** Sambungan kini sedia untuk digunakan.
+#### LANGKAH 2: AKTIFKAN MOD PEMBANGUN
+
+1.  Buka pelayar Google Chrome.
+2.  Pergi ke **`chrome://extensions`** di bar alamat.
+3.  Di penjuru kanan atas, **AKTIFKAN** suis **"Developer mode"**.
+
+#### LANGKAH 3: MUATKAN SAMBUNGAN
+
+1.  Klik butang **"Load unpacked"** (Muat sambungan yang belum dibungkus).
+2.  Pilih folder kod sumber projek yang diekstrak dalam Langkah 1 (folder yang mengandungi fail `manifest.json`).
+
+> **STATUS:** Sambungan kini dipasang dan sedia untuk digunakan dalam pelayar Chrome anda.
+
+---
