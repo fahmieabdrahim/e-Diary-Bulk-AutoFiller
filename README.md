@@ -1,39 +1,40 @@
-# E-DIARY AUTOFILL EXTENSION
+⚙️ CARA PEMASANGAN (MANUAL DIPERLUKAN)
+Oleh sebab sambungan ini adalah projek sumber terbuka dan tidak dihoskan di Chrome Web Store (CWS), pemasangan mesti dilakukan secara manual melalui Mod Pembangun (Developer Mode) di Chrome.
 
-Sambungan Google Chrome ini direka untuk mengautomasikan pengisian borang e-Diary anda untuk tempoh sebulan penuh. Matlamat utama projek ini adalah untuk menjimatkan masa anda daripada melaksanakan tugas pengisian data yang berulang.
+PROSEDUR PEMASANGAN:
 
-### Status Projek
+<img width="1280" height="691" alt="Artboard 1" src="https://github.com/user-attachments/assets/ae5531a5-5213-4871-81d1-f2dd31bb3b2c" />
+LANGKAH 1: MUAT TURUN KOD SUMBER DARI GITHUB
+Pergi ke repositori GitHub projek ini.
+Klik butang < > Code dan pilih "Download ZIP".
 
-* Tipe: Sumber Terbuka (Open Source)
-* Penafian: Projek ini tidak berafiliasi atau disokong oleh mana-mana entiti rasmi yang menguruskan e-Diary.
+Nyahzip (extract) fail yang dimuat turun. Folder yang diekstrak adalah direktori sambungan anda.
 
----
+<img width="1280" height="691" alt="Artboard 2" src="https://github.com/user-attachments/assets/655c5422-913e-4058-86f9-e5ccab9a4d14" />
+LANGKAH 2: BUKA HALAMAN PENGURUSAN SAMBUNGAN
+Buka pelayar Google Chrome.
 
-## ⚙️ CARA PEMASANGAN (MANUAL DIPERLUKAN)
+Klik pada ikon tiga titik menegak di penjuru kanan atas pelayar.
 
-Oleh sebab sambungan ini adalah projek sumber terbuka dan tidak dihoskan di Chrome Web Store (CWS), pemasangan **mesti** dilakukan secara manual melalui Mod Pembangun (*Developer Mode*) di Chrome.
+Pilih Extensions > Manage Extensions. (Anda juga boleh menaip chrome://extensions di bar alamat).
 
-**PENTING:** Ini adalah langkah keselamatan wajib bagi semua sambungan luar CWS.
+<img width="1280" height="691" alt="Artboard 3" src="https://github.com/user-attachments/assets/eeef08f9-8388-4b45-aa0e-e17e40f7c7e2" />
+LANGKAH 3: AKTIFKAN MOD PEMBANGUN
+Di halaman Chrome Extensions, lihat di penjuru kanan atas.
 
-### PROSEDUR PEMASANGAN:
+AKTIFKAN suis "Developer mode".
 
-#### LANGKAH 1: MUAT TURUN KOD SUMBER
+<img width="1280" height="691" alt="Artboard 4" src="https://github.com/user-attachments/assets/794fdd13-3a0a-44a4-9a62-69c6ee3cffcc" />
+LANGKAH 4: MUATKAN SAMBUNGAN
+Setelah Mod Pembangun diaktifkan, klik butang "Load unpacked" (Muat sambungan yang belum dibungkus) di penjuru kiri atas.
 
-1.  Pergi ke repositori GitHub ini.
-2.  Klik butang **`< > Code`** dan pilih **"Download ZIP"**.
-3.  Nyahzip (extract) fail yang dimuat turun. Folder yang diekstrak adalah direktori sambungan anda.
+Pilih folder kod sumber projek yang anda nyahzip dalam Langkah 1 (folder yang mengandungi fail manifest.json).
 
-#### LANGKAH 2: AKTIFKAN MOD PEMBANGUN
+<img width="1280" height="691" alt="Artboard 5" src="https://github.com/user-attachments/assets/10adad06-bde5-45ff-8e4b-c8f22bdd248b" />
+LANGKAH 5: PENGESAHAN
+Sambungan "E-Diary Bulk AutoFiller" kini akan muncul dalam senarai sambungan anda.
 
-1.  Buka pelayar Google Chrome.
-2.  Pergi ke **`chrome://extensions`** di bar alamat.
-3.  Di penjuru kanan atas, **AKTIFKAN** suis **"Developer mode"**.
+Pastikan ia diaktifkan (suis biru).
 
-#### LANGKAH 3: MUATKAN SAMBUNGAN
-
-1.  Klik butang **"Load unpacked"** (Muat sambungan yang belum dibungkus).
-2.  Pilih folder kod sumber projek yang diekstrak dalam Langkah 1 (folder yang mengandungi fail `manifest.json`).
-
-> **STATUS:** Sambungan kini dipasang dan sedia untuk digunakan dalam pelayar Chrome anda.
-
----
+<img width="1280" height="691" alt="Artboard 6" src="https://github.com/user-attachments/assets/05eb330e-b563-40ca-8f44-8fc7757ea0fe" />
+STATUS: Sambungan kini dipasang dan sedia untuk digunakan. Apabila anda melayari borang e-Diary (seperti ditunjukkan di bawah), anda akan melihat panel AutoFill di sebelah kanan.
