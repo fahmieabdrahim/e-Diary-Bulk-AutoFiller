@@ -1,48 +1,65 @@
-⚙️ CARA PEMASANGAN (MANUAL DIPERLUKAN)
-Oleh sebab sambungan ini adalah projek sumber terbuka dan tidak dihoskan di Chrome Web Store (CWS), pemasangan mesti dilakukan secara manual melalui Mod Pembangun (Developer Mode) di Chrome.
+# 🚀 e-Diary Bulk AutoFiller (Chrome Extension)
 
-PENTING: Ini adalah langkah keselamatan wajib bagi semua sambungan luar CWS.
+![Platform](https://img.shields.io/badge/Platform-Google%20Chrome-blue?logo=google-chrome&logoColor=white)
+![Status](https://img.shields.io/badge/Install-Manual%20(Developer%20Mode)-orange)
+![License](https://img.shields.io/badge/License-Open%20Source-green)
 
-PROSEDUR PEMASANGAN:
-LANGKAH 1: MUAT TURUN KOD SUMBER DARI GITHUB
-Pergi ke repositori GitHub projek ini.
+**e-Diary Bulk AutoFiller** adalah sambungan (extension) pelayar yang membolehkan anda mengisi borang e-Diary secara pukal dengan pantas.
 
-Klik butang < > Code dan pilih "Download ZIP".
+---
 
-Nyahzip (extract) fail yang dimuat turun. Folder yang diekstrak adalah direktori sambungan anda.
+## ⚠️ PENTING: Cara Pemasangan (Manual)
+Oleh sebab projek ini adalah sumber terbuka dan tidak dihoskan di Chrome Web Store (CWS), pemasangan mesti dilakukan secara manual melalui **Mod Pembangun (Developer Mode)**. Ini adalah langkah keselamatan standard.
 
-<img width="1280" height="691" alt="Artboard 1" src="https://github.com/user-attachments/assets/9584df2f-a22d-4d59-a639-a7b6bf7c1e39" />
+Ikuti langkah-langkah bergambar di bawah:
 
-LANGKAH 2: BUKA HALAMAN PENGURUSAN SAMBUNGAN
-Buka pelayar Google Chrome.
+### 📥 Langkah 1: Muat Turun Kod Sumber
+1. Klik butang **< > Code** di atas dan pilih **Download ZIP**.
+2. **Extract (Nyahzip)** fail tersebut. Folder yang diekstrak adalah folder extension anda.
 
-Klik pada ikon tiga titik menegak di penjuru kanan atas pelayar.
+![Langkah 1](https://github.com/user-attachments/assets/9584df2f-a22d-4d59-a639-a7b6bf7c1e39)
 
-Pilih Extensions > Manage Extensions. (Anda juga boleh menaip chrome://extensions di bar alamat).
+---
 
-<img width="1280" height="691" alt="Artboard 2" src="https://github.com/user-attachments/assets/86dbacd3-6a57-4f53-a286-cf4f0984fe76" />
+### 🔧 Langkah 2: Buka Pengurusan Sambungan
+1. Buka Google Chrome.
+2. Klik ikon **tiga titik** (menu) di penjuru kanan atas.
+3. Pilih **Extensions > Manage Extensions**.
+   * Atau taip `chrome://extensions` di bar alamat.
 
-LANGKAH 3: AKTIFKAN MOD PEMBANGUN
-Di halaman Chrome Extensions, lihat di penjuru kanan atas.
+![Langkah 2](https://github.com/user-attachments/assets/86dbacd3-6a57-4f53-a286-cf4f0984fe76)
 
-AKTIFKAN suis "Developer mode".
+---
 
-<img width="1280" height="691" alt="Artboard 3" src="https://github.com/user-attachments/assets/812e4d10-b6f3-4b59-b4af-c60d86c1ed8e" />
+### ⚡ Langkah 3: Aktifkan Mod Pembangun
+1. Lihat di penjuru **kanan atas** halaman Extensions.
+2. Hidupkan suis **"Developer mode"**.
 
-LANGKAH 4: MUATKAN SAMBUNGAN
-Setelah Mod Pembangun diaktifkan, klik butang "Load unpacked" (Muat sambungan yang belum dibungkus) di penjuru kiri atas.
+![Langkah 3](https://github.com/user-attachments/assets/812e4d10-b6f3-4b59-b4af-c60d86c1ed8e)
 
-Pilih folder kod sumber projek yang anda nyahzip dalam Langkah 1 (folder yang mengandungi fail manifest.json).
+---
 
-<img width="1280" height="691" alt="Artboard 4" src="https://github.com/user-attachments/assets/eddd0639-adf4-4b86-8180-8286510e0142" />
+### 📂 Langkah 4: Muatkan Sambungan
+1. Klik butang **"Load unpacked"** di penjuru kiri atas.
+2. Pilih **Folder** yang anda nyahzip tadi (pastikan pilih folder yang ada fail `manifest.json`).
 
-LANGKAH 5: PENGESAHAN
-Sambungan "E-Diary Bulk AutoFiller" kini akan muncul dalam senarai sambungan anda.
+![Langkah 4](https://github.com/user-attachments/assets/eddd0639-adf4-4b86-8180-8286510e0142)
 
-Pastikan suisnya diaktifkan (berwarna biru).
+---
 
-<img width="1280" height="691" alt="Artboard 5" src="https://github.com/user-attachments/assets/79a2881e-e694-4a44-b44d-c6e784d77f8e" />
+### ✅ Langkah 5: Pengesahan
+Sambungan **E-Diary Bulk AutoFiller** kini aktif! Pastikan suisnya berwarna biru.
 
-✅ STATUS: Sambungan kini dipasang dan sedia untuk digunakan. Apabila anda melayari borang e-Diary, anda akan melihat panel AutoFill di sebelah kanan seperti yang ditunjukkan di bawah.
+![Langkah 5](https://github.com/user-attachments/assets/79a2881e-e694-4a44-b44d-c6e784d77f8e)
 
-<img width="1280" height="691" alt="Artboard 6" src="https://github.com/user-attachments/assets/c6a6a13d-9349-49ca-a1a1-7f2716ddd2ff" />
+---
+
+## 📸 Hasil Akhir
+Apabila anda melayari laman e-Diary, panel AutoFill akan muncul di sebelah kanan seperti ini:
+
+![Final Preview](https://github.com/user-attachments/assets/c6a6a13d-9349-49ca-a1a1-7f2716ddd2ff)
+
+---
+<div align="center">
+  Dihasilkan dengan ❤️ oleh <a href="https://github.com/fahmieabdrahim">Fahmie Abd Rahim</a>
+</div>
