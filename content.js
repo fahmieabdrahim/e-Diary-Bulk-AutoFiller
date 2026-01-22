@@ -121,8 +121,8 @@ function tambahStyle(css) {
         LOKASI: '#tactivity-location',
         KEBENARAN: '#tactivity-permission_type',
         KETERANGAN_CKEDITOR_ID: 'tactivity-detail',
-        INPUT_MASA_MULA: '#tactivity-date_from',
-        INPUT_MASA_TAMAT: '#tactivity-date_to',
+        INPUT_MASA_MULA: '#tactivity-date_from_only',
+        INPUT_MASA_TAMAT: '#tactivity-date_to_only',
         TOMBOL_HANTAR: 'button[type="submit"]',
         FORM_ID: '#add-activity-form',
 
@@ -140,7 +140,7 @@ function tambahStyle(css) {
         const dd = String(dateObj.getDate()).padStart(2, '0');
         const mm = String(dateObj.getMonth() + 1).padStart(2, '0');
         const yyyy = dateObj.getFullYear();
-        return `${dd}/${mm}/${yyyy}`;
+        return `${yyyy}/${mm}/${dd}`;
     }
 
     function getDaysInMonth(year, month) {
@@ -616,5 +616,6 @@ function tambahStyle(css) {
           }
       });
     }
+
 
 })(); // Tutup skrip utama
