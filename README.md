@@ -57,9 +57,8 @@ Sambungan **E-Diary Bulk AutoFiller** kini aktif! Pastikan suisnya berwarna biru
 ## 📸 Hasil Akhir
 Apabila anda melayari laman e-Diary, panel AutoFill akan muncul di sebelah kanan seperti ini:
 
-![Final Preview](https://github.com/user-attachments/assets/c6a6a13d-9349-49ca-a1a1-7f2716ddd2ff)
-
+<img width="1280" height="691" alt="506690761-c6a6a13d-9349-49ca-a1a1-7f2716ddd2ff" src="https://github.com/user-attachments/assets/b9e55912-55c8-47fb-9656-26b9883be40d" />
 ---
 <div align="center">
-  Dihasilkan dengan ❤️ oleh <a href="https://github.com/fahmieabdrahim">Fahmie Abd Rahim</a>
+  Dihasilkan oleh <a href="https://github.com/fahmieabdrahim">fahmie.abdrahim@gmail.com</a>
 </div>
